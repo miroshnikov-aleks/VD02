@@ -3,6 +3,7 @@
     justify-content: space-around; /* Распределяет карточки равномерно */
     flex-wrap: wrap; /* Позволяет карточкам переноситься на новую строку при необходимости */
     padding: 10px;
+    font-family: Arial, sans-serif; /* Добавлено свойство для изменения шрифта */
 }
 
 .user-card {
@@ -14,6 +15,7 @@
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
     text-align: center;
     background-color: #ffe0b2; /* Исходный цвет карточки - светло-оранжевый */
+    font-family: Arial, sans-serif; /* Добавлено свойство для изменения шрифта */
 }
 
 .user-card:hover {
