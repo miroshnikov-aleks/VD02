@@ -1,0 +1,30 @@
+.card-container {
+    display: flex;
+    justify-content: space-around; /* Распределяет карточки равномерно */
+    flex-wrap: wrap; /* Позволяет карточкам переноситься на новую строку при необходимости */
+    padding: 10px;
+}
+
+.user-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px; /* Устанавливает фиксированную ширину для каждой карточки */
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    text-align: center;
+    background-color: #ffe0b2; /* Исходный цвет карточки - светло-оранжевый */
+}
+
+.user-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ffcc80; /* Цвет карточки при наведении - более насыщенный оранжевый */
+}
+
+.user-photo {
+    width: 306px; /* Уменьшает размер изображения */
+    height: 459px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
